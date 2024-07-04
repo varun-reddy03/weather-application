@@ -1,9 +1,11 @@
 import React from 'react'
 import './description.css';
 
-import { FaArrowDown,FaArrowUp,FaWind } from "react-icons/fa";
+
+import { FaArrowDown, FaArrowUp, FaWind } from "react-icons/fa";
 import { BiHappy } from "react-icons/bi";
-import { MdCompress,MdOutlineWaterDrop } from "react-icons/md";
+import { MdCompress, MdOutlineWaterDrop } from "react-icons/md";
+
 
 const Descriptions = ({weather, units}) => {
 
